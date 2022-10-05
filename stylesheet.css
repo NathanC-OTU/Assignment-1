@@ -1,6 +1,7 @@
 /* Nav Bar */
 .body {
     background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .navbar {
     font-size: 30px;
@@ -14,7 +15,6 @@
 }
 .navbarbutton {
     float: right;
-
 }
 
 .navbarbutton a {
@@ -51,9 +51,33 @@
     font-size: medium;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 10%;
     margin-top: 2.5%;
+    text-align: left;
 }
+/* Home and About me CSS */
+.video {
+    text-align: center;
+    padding-top: 5%;
+}
+.column_photo {
+    float: left;
+    width: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    margin-right: 20px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    text-align: center;
+  }
+
+.abt_me_text {
+    padding-left: 10px;
+}
+
+
 
 /* Project CSS */
 
@@ -68,16 +92,18 @@
     text-align: center;
 }
 
-.project_column {
+/* Project Column styling */
+.column {
     float: left;
     width: 50%;
+    font-family: Arial, Helvetica, sans-serif;
   }
-  /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
+
 .proj_column_content {
     background-color: white;
     margin: 10px;
